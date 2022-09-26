@@ -26,4 +26,4 @@ Published data are from Hilton et al., 1993; Hoke et al., 1994; Varekamp et al.,
 
 Please cite as:
 
-Barry PH, De Moor JM, Chiodi A, Aguilera F, Hudak MR, Bekaert DV, Turner SJ, Curtice J, Seltzer AM, Jessen GL, Osses E, Blamey J, Amenábar MJ, Selci M, Cascone M, Bastianoni A, Nakagawa M, Filipovich R, Bustos E, Schrenk MO, Buongiorno J, Ramírez CJ, Rogers TJ, Lloyd KG and Giovannelli D. 2022. The Helium and Carbon Isotope Characteristics of the Andean Convergent Margin. Front. Earth Sci. 10:897267. doi: 10.3389/feart.2022.897267
+....
