@@ -1,4 +1,5 @@
-# The helium and carbon isotope characteristics of the Andean Convergent Margin
+# The missing carbon budget puzzle piece: shallow-water hydrothermal vents contribution to global CO2 fluxes
+
 
 [![forthebadge](https://forthebadge.com/images/badges/cc-by-nd.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
@@ -12,17 +13,17 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
-Dataset and R code associated with the Barry et al 2022 paper on the Helium-Carbon systematic across the Central and Southern Volcanic Zone in South America.
+Dataset and R code associated with the Bastianoni et al 2022 paper on the contribution of Shallow-Water Hydrothermal vents degassing to the global Carbon Budget
 
 The reposeitory contains the following files:
 
 - README.md (this readme file)
-- Barry et al_CHL20_helium_carbon_paper.r (the r code to reproduce the figures)
-- hec_dataset.csv (the main dataset used for the figures)
-- ternary_dataset.csv (the main dataset used for the ternary plot)
-- Barry et al_supplementary_table_1.csv (the compilation of helium and carbon isotope and abundance ratios, including newly reported data from Table 1 of the paper)
+- Bastianoni et al_2022_SWHTV.r (the r code to reproduce the figures)
+- shtv3.csv (the main dataset used for obtaining the estimates)
 
-Published data are from Hilton et al., 1993; Hoke et al., 1994; Varekamp et al., 2006; Sepulveda et al., 2007; Ray et al., 2009; Capaccioni et al., 2011; Aguilera et al., 2008; 2012; 2016; Augusto et al., 2013; Benavente et al., 2013; 2016; Roulleau et al., 2016; Tardani et al., 2016; Tassi et al., 2009; 2010; 2011; 2016; 2017; Peralta-Arnold et al., 2017; 2020; Lopez et al., 2018; Chiodi et al., 2015; 2019; Inostroza et al., 2020a; 2020b; Robidoux et al., 2020; Tardani et al., 2021; Lages et al., 2021; Filipovich et al., 2022.
+
+Published data are from Arc Volcanoes data obtained from Sano and Williams (1996); Active Subaerial Volcanoes from Burton et al. (2013) and Fischer et al. (2019); East African Rift from (Lee et al., 2016); Mt. Etna from Aiuppa et al. (2017); Mid ocean ridges  from Varekamp et al. (1992), Marty and  (1998), Hauri et al. (2019) and Bekaert et al. (2021); Volcanic Lakes from Perez et al. (2011); Hydrothermal systems data from Werner et al. (2019).
+
 
 Please cite as:
 
