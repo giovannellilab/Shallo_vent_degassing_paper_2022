@@ -7,8 +7,8 @@
 
 
 [![giovannellilab](https://img.shields.io/badge/BY-Giovannelli_Lab-blue)](http://dgiovannelli.github.io)
-[![DATA-DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6360624.svg)](https://doi.org/10.5281/zenodo.6360624)
-[![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.3389/feart.2022.897267-success)](https://doi.org/10.3389/feart.2022.897267)
+[![DATA-DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6360624.svg)](https://doi.org/xxxx)
+[![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.xxx)](https://doi.org/10.xxx)
 [![made-with-Markdown](https://img.shields.io/badge/Coded%20in-R-red.svg)](https://www.r-project.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
