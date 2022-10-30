@@ -7,13 +7,13 @@
 
 
 [![giovannellilab](https://img.shields.io/badge/BY-Giovannelli_Lab-blue)](http://dgiovannelli.github.io)
-[![DOI](https://zenodo.org/badge/460389145.svg)](https://zenodo.org/badge/latestdoi/460389145)
+[![DOI](https://zenodo.org/badge/460389145.svg)](https://www.doi.org/10.5281/zenodo.7263266)
 [![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.xxx)](https://doi.org/10.xxx)
 [![made-with-Markdown](https://img.shields.io/badge/Coded%20in-R-red.svg)](https://www.r-project.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
-Dataset and R code associated with the Bastianoni et al 2022 paper on the contribution of Shallow-Water Hydrothermal vents degassing to the global Carbon Budget
+Dataset and R code associated with the Bastianoni et al 2022 paper on the contribution of Shallow-Water Hydrothermal vents degassing to the global Carbon Budget. All the version of this repository can be cited using the Zenodo [https://www.doi.org/10.5281/zenodo.7263266](https://www.doi.org/10.5281/zenodo.7263266).
 
 The reposeitory contains the following files:
 
