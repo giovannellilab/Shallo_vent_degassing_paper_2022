@@ -8,7 +8,7 @@
 
 [![giovannellilab](https://img.shields.io/badge/BY-Giovannelli_Lab-blue)](http://dgiovannelli.github.io)
 [![DOI](https://zenodo.org/badge/460389145.svg)](https://www.doi.org/10.5281/zenodo.7263266)
-[![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.xxx)](https://doi.org/10.xxx)
+[![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.31223/X52W81)](https://doi.org/10.31223/X52W81)
 [![made-with-Markdown](https://img.shields.io/badge/Coded%20in-R-red.svg)](https://www.r-project.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
@@ -27,4 +27,5 @@ Published data are from Arc Volcanoes data obtained from Sano and Williams (1996
 
 Please cite as:
 
-....
+Bastianoni, A., Cascone, M., Moor, J.M. de, Barry, P.H., Price, R., Cordone, A., Aiuppa, A., Fischer, T.P., Marty, B., Giovannelli, D., 2022. The missing carbon budget puzzle piece: shallow-water hydrothermal vents contribution to global CO2 fluxes. EarthArXiv, https://doi.org/10.31223/X52W81
+
