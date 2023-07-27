@@ -22,7 +22,7 @@ The reposeitory contains the following files:
 - shtv3.csv (the main dataset used for obtaining the estimates)
 
 
-Published data are from Arc Volcanoes data obtained from Sano and Williams (1996); Active Subaerial Volcanoes from Burton et al. (2013) and Fischer et al. (2019); East African Rift from (Lee et al., 2016); Mt. Etna from Aiuppa et al. (2017); Mid ocean ridges  from Varekamp et al. (1992), Marty and  (1998), Hauri et al. (2019) and Bekaert et al. (2021); Volcanic Lakes from Perez et al. (2011); Hydrothermal systems data from Werner et al. (2019).
+Published data are from Arc Volcanoes data obtained from Sano and Williams (1996); Active Subaerial Volcanoes from Burton et al. (2013) and Fischer et al. (2019); East African Rift from Lee et al. (2016); Mt. Etna from Aiuppa et al. (2017); Mid ocean ridges from Varekamp et al. (1992), Marty and  (1998), Hauri et al. (2019) and Bekaert et al. (2021); Volcanic Lakes from Perez et al. (2011); Hydrothermal systems data from Werner et al. (2019).
 
 
 Please cite as:
