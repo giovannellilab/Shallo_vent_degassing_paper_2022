@@ -7,13 +7,13 @@
 
 
 [![giovannellilab](https://img.shields.io/badge/BY-Giovannelli_Lab-blue)](http://dgiovannelli.github.io)
-[![DATA-DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6360624.svg)](https://doi.org/10.5281/zenodo.6360624)
-[![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.3389/feart.2022.897267-success)](https://doi.org/10.3389/feart.2022.897267)
+[![DOI](https://zenodo.org/badge/460389145.svg)](https://www.doi.org/10.5281/zenodo.7263266)
+[![PAPER-DOI](https://img.shields.io/badge/PAPER_DOI-10.31223/X52W81-success)](https://doi.org/10.31223/X52W81)
 [![made-with-Markdown](https://img.shields.io/badge/Coded%20in-R-red.svg)](https://www.r-project.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
-Dataset and R code associated with the Bastianoni et al 2022 paper on the contribution of Shallow-Water Hydrothermal vents degassing to the global Carbon Budget
+Dataset and R code associated with the Bastianoni et al 2022 paper on the contribution of Shallow-Water Hydrothermal vents degassing to the global Carbon Budget. All the version of this repository can be cited using the Zenodo [https://www.doi.org/10.5281/zenodo.7263266](https://www.doi.org/10.5281/zenodo.7263266).
 
 The reposeitory contains the following files:
 
@@ -27,4 +27,5 @@ Published data are from Arc Volcanoes data obtained from Sano and Williams (1996
 
 Please cite as:
 
-....
+Bastianoni, A., Cascone, M., Moor, J.M. de, Barry, P.H., Price, R., Cordone, A., Aiuppa, A., Fischer, T.P., Marty, B., Giovannelli, D., 2022. The missing carbon budget puzzle piece: shallow-water hydrothermal vents contribution to global CO2 fluxes. EarthArXiv, https://doi.org/10.31223/X52W81
+
