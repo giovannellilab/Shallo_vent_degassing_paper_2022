@@ -18,7 +18,7 @@ Dataset and R code associated with the Bastianoni et al 2022 paper on the contri
 The repository contains the following files:
 
 - README.md (this readme file)
-- Bastianoni et al_2022_SWHTV.r (the r code to reproduce the figures)
+- Bastianoni et al_2022_SWHTV_rev.r (the commented r code to reproduce the figures)
 - shtv3.csv (the main dataset used for obtaining the estimates)
 - shtv5.csv (the dataset used for the SMOTE approach)
 
