@@ -1,3 +1,4 @@
+# Load necessary libraries for data analysis and visualization
 library(sampler)
 library(bootstrap)
 library(ggplot2)
@@ -6,10 +7,10 @@ library(DMwR2)
 library(UBL)
 library(viridis)
 
-#setting bigger plots
+# Set larger plot dimensions for better visualization
 options(repr.plot.width=12, repr.plot.height=8)
 
-# Setting up the Giovannelli Lab plot theme
+# Define a custom theme for plots in the Giovannelli Lab style
 theme_glab <- function(base_size = 11,
                     base_family = "",
                     base_line_size = base_size / 180,
@@ -73,8 +74,15 @@ flux<-sht[,3]
 flux
 
 set.seed(12)
+
+
+# Rename the dataset for clarity and convenience
 x <- flux
+
+# Define a function for bootstrapping and sampling
 theta <- function(x){sample(flux,50,rep=TRUE)}
+
+# Bootstrap the dataset 1,000 times
 results_shtv1 <- bootstrap(x,1000,theta)
 
 ###### Command lines to obtain the flux1_df.csv file and description of the csv file columns ######  
@@ -87,13 +95,18 @@ results_shtv1 <- bootstrap(x,1000,theta)
 # the column under the heading "flux1_matrix" represents all the fluxes calculated. 
 # With this file we can generate plots and calculate the descriptive statistics of the population (mean, standard deviation, confidence interval). 
 
+# Construct a CSV file containing bootstrapped flux data
 write.csv(results_shtv1$thetastar, "flux1.csv") 
+
 flux1<-read.csv("flux1.csv")
 flux1b<-flux1[,2:1001]
 #to join all columns into 1
 flux1_matrix=unlist(flux1b)
 flux1_df=as.data.frame(flux1_matrix)
 write.csv(flux1_df,"flux1_df.csv") 
+
+
+
 
 # ## Approach 2: Jack-knife resampling and bootstrap of the dataset
 
@@ -137,8 +150,10 @@ flux2_matrix=unlist(flux2[,2:1001])
 flux2_df=as.data.frame(flux2_matrix)
 write.csv(flux2_df,"flux2_df.csv")
 
-## Approach 3: Creation of a balanced dataset from an artificial one applying SMOTE
 
+
+
+## Approach 3: Creation of a balanced dataset from an artificial one applying SMOTE
 
 #***Packages needed***:UBL, DMwR2,bootstrap, sampler
 
@@ -164,15 +179,15 @@ x<-sht
 theta <- function(x){SmoteClassif(Tclass ~., data, C.perc = "balance")}
 results_shtv1 <- bootstrap(x,1000,theta)
 
+#apply the smote function
 flux_smote_clean=select(results_shtv1, -starts_with("Tclass")) #to remove the column Tclass
 flux_smote[,3:1002] #to select just the columns of interest
 flux_smote=unlist(flux_smote[,3:1002]) #to traspose all the columns and obtain a list of values
 as.data.frame(flux_smote)
 
-#to obtain the csv needed for the downstream steps
-write.csv(results_shtv1$thetastar, "smote_df.csv") 
+write.csv(results_shtv1$thetastar, "smote_df.csv") #to obtain the csv needed for the downstream steps
 
-smote_df<-read.csv("/home/alessia/Desktop/Postdoc_Giovannelli_Lab/SHTV/Bootstrap_results/Results_100122/smote_df.csv")
+smote_df<-read.csv("smote_df.csv")
 summary(smote_df)
 
 #average and std dev obtained after running a balanced SMOTE with Temp as a classifying variable
@@ -182,16 +197,13 @@ norm_df <- as.data.frame(norm_dist)
 norm_df$norm_dist <- ifelse(norm_dist < 0, "0.198", norm_df$norm_dist)
 norm_df
 
-write.csv(norm_df, "normdist.csv") 
-#command to write the data into a .csv file
+write.csv(norm_df, "normdist.csv")  #command to write the data into a .csv file
 
-shtv5 <- read.csv("shtv5.csv", sep="\t") 
-#file with the columns and fluxes generated pasted from normdist.csv
+shtv5 <- read.csv("shtv5.csv", sep="\t")  #file with the columns and fluxes generated pasted from normdist.csv
 
 data <- shtv5[,-1]
 data <- as.data.frame(data)
-data$Type<-as.factor(data$Type) 
-#to transform Type into a factor
+data$Type<-as.factor(data$Type)  #to transform Type into a factor
 
 #to create the SMOTE'd data from the new dataset
 newData <- SmoteClassif(Type ~., data,  C.perc = list(E = 1,R = 6))
@@ -202,6 +214,7 @@ log_smote <-as.data.frame(logFluxsmote)
 
 set.seed(12)
 x <- data
+
 #create a function to obtain the balanced dataset 
 #where E stands for Estimated and R for reported 
 theta <- function(x){SmoteClassif(Type ~., data,  C.perc = list(E = 1,R = 6))} 
@@ -226,3 +239,4 @@ smotev2_df <-as.data.frame(smotev2_matrix)
 write.csv(smotev2_df, "smotev2_df.csv")
 
 
+### END ###
